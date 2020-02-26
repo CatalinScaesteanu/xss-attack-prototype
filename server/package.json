@@ -1,0 +1,14 @@
+{
+  "name": "xss-server",
+  "version": "1.0.0",
+  "description": "example server for xss attack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

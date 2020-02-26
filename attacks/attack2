@@ -1,0 +1,2 @@
+<a href="#" onclick="alert(JSON.stringify(localStorage))">click</a>
+<a href="#" onclick="alert(JSON.stringify(document.cookie))">click</a>
