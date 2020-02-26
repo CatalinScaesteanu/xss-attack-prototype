@@ -1,4 +1,4 @@
-## Available Scripts
+## How to use
 
 ### Server
 
